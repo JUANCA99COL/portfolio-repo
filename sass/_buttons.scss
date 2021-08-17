@@ -1,0 +1,37 @@
+
+
+.myButtons {
+	width: 120px;
+	height: 50px;
+	padding: 5px;
+	border-radius: 45px;
+	background: black;
+	color: white;
+	// margin-left: 48px;
+	text-decoration: none;
+  margin: auto;
+  display: block;
+}
+
+.myButtons2 {
+	width: 120px;
+	height: 50px;
+	padding: 5px;
+	background: none;
+	border: 1px solid black;
+	border-radius: 45px;
+	color: black;
+}
+
+.myButtons2:hover {
+	background: black;
+	color: white;
+	text-decoration: none;
+}
+
+.myButtons:hover {
+	background: none;
+	color: orange;
+	border: 1px solid orange;
+	text-decoration: none;
+}
