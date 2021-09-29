@@ -258,6 +258,24 @@ html,body {
     font-size: 18px; }
 
   .abt-me {
-    font-size: 35px; } }
+    font-size: 35px; } 
+
+
+  .frm-w {
+    width: 275px;
+    margin-left: -74px;
+  }
+
+  .btn-dark {
+    margin-left: -73px;
+    width: 180px;
+  }
+
+  .myForm {
+    margin-top: -47px;
+  }
+  
+  
+  }
 
 /*# sourceMappingURL=style.css.map */
