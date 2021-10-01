@@ -25,3 +25,7 @@ $(document).ready(function(){
   function closeNav() {
     document.getElementById("myNav").style.height = "0%";
   }
+
+  $(window).on("load",function(){
+    $(".wrapper-loader").fadeOut("slow");
+  });
