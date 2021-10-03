@@ -8,6 +8,8 @@
 }
 
 
+
+
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
@@ -22,7 +24,6 @@ html,body {
  #bg-form {
    background: black;
  } 
-
 
 .nav {
   width: 100%;
@@ -106,6 +107,14 @@ html,body {
   font-size: 50px;
   color: black;
   margin: 5px; }
+
+  .github {
+    width: 45px;
+    color: black;
+    margin: 5px; 
+    margin-top: -4px;
+  } 
+  
 
 .mockUps {
   width: 80%;
