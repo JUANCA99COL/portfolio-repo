@@ -237,7 +237,7 @@ html,body {
     /* background: black; */
     color: white;
     margin: auto;
-    width: 63%;
+    width: 62%;
   }
 
   .thanks {
@@ -431,7 +431,7 @@ html,body {
     margin-top: 50px; }
 
   .para-contact {
-    font-size: 25px; }
+    font-size: 15px; }
 
   .info-abt {
     font-size: 18px; }
@@ -455,9 +455,22 @@ html,body {
   }
 
 
-    .skills {
+  .skills {
       width: 77%;
       height: auto;
+  }
+
+  .myProfile {
+    width: 80%;
+  }
+
+  .ab-ti {
+    font-size: 30px;
+  }
+
+  .f-title {
+    margin-bottom: 7px;
+    font-size: 22px;
   }
   
   
