@@ -1,14 +1,4 @@
-console.log('js');
-$('#sec-nav').hide();
-// $('.menu').hide();
-$(document).ready(function(){
-
-    $('.menu').click(function(){
-      $('#sec-nav').toggle();
-    });
-
-
-  });
+console.log('hello');
 
 
 // ==========================================================
@@ -26,6 +16,44 @@ $(document).ready(function(){
     document.getElementById("myNav").style.height = "0%";
   }
 
+
+// ==========================================================
+//	Nav scroll Animation
+// ==========================================================
+
+  $(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 100){
+            $(".navbar").css({"background-color":"white"});   
+        }
+        else{
+            $(".navbar").css({"background-color":""});
+        }
+
+    })
+  })
+
+
+// ==========================================================
+//	LOADER
+// ==========================================================
+
+
   $(window).on("load",function(){
     $(".wrapper-loader").fadeOut("slow");
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
