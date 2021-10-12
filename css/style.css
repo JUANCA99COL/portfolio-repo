@@ -61,7 +61,7 @@ html,body {
   color: black; }
 
 .logo {
-  width: 65px;
+  width: 55px;
   margin: 1px; }
 
 .menu {
@@ -69,6 +69,8 @@ html,body {
   cursor: pointer; 
   color: black;
 }
+
+
 
 .hero-image {
   background-image: url("../img/chris-herath-FcvIlm3I2Ts-unsplash.jpg");
@@ -450,6 +452,12 @@ html,body {
 
   .myForm {
     margin-top: -47px;
+  }
+
+
+    .skills {
+      width: 77%;
+      height: auto;
   }
   
   
