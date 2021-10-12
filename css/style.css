@@ -70,6 +70,10 @@ html,body {
   color: black;
 }
 
+.wlc {
+  font-size: 50px;
+}
+
 
 
 .hero-image {
@@ -471,6 +475,15 @@ html,body {
   .f-title {
     margin-bottom: 7px;
     font-size: 22px;
+  }
+
+  .sn-bu {
+    margin-left: -78px;
+    width: 142px;
+  }
+
+  .wlc {
+    font-size: 35px;
   }
   
   
