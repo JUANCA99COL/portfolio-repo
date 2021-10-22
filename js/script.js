@@ -24,10 +24,17 @@ console.log('hello');
   $(document).ready(function(){
     $(window).scroll(function(){
         if($(window).scrollTop() > 100){
-            $(".navbar").css({"background-color":"white"});   
+            $(".navbar").css({"background-color":"white",
+            
+            
+          });   
         }
         else{
-            $(".navbar").css({"background-color":""});
+            $(".navbar").css({"background-color":"",
+            
+          
+          
+          });
         }
 
     })

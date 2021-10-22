@@ -19,14 +19,14 @@ html,body {
 }
 
 #profile-bg {
-  background-image: url("../img/sunset.jpg");
+  background-image: url("../img/miramr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 700px;
-  filter: brightness(80%);
   
 }
+
 
 
  .f-title {
@@ -72,7 +72,9 @@ html,body {
 
 .logo {
   width: 55px;
-  margin: 1px; }
+  margin: 1px; 
+  cursor: pointer;
+}
 
 .menu {
   font-size: 35px;
@@ -134,10 +136,27 @@ html,body {
 
   .github {
     width: 28px;
-    color: black;
+    color: rgb(39, 31, 31);
     margin: 5px;
     margin-top: 9px;
   } 
+
+  .arrow {
+    width: 40px;
+    position: absolute;
+    bottom: 31%;
+    left: 7%;
+    transform: rotate(180deg);
+    cursor: pointer; 
+  }
+
+  .arrow:hover {
+    filter: invert(58%) sepia(31%) saturate(4350%) hue-rotate(170deg) brightness(100%) contrast(92%);
+  }
+
+  .footer {
+    position: relative;
+  }
   
 
 .mockUps {
@@ -495,6 +514,10 @@ html,body {
 
   .wlc {
     font-size: 35px;
+  }
+
+  .arrow {
+    width: 30px;
   }
   
   
