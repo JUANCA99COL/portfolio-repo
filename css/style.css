@@ -18,13 +18,32 @@ html,body {
   max-width: 100%;
 }
 
-#profile-bg {
-  background-image: url("../img/miramr.jpg");
+#exposure {
+  background-image: url("../img/languages-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 700px;
   
+}
+
+.skills {
+  width: 80px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.languages {
+  margin: 10px;
+  padding: 10px;
+}
+
+.adobe img {
+  width: 80px;
+  margin: 10px;
+  padding: 10px;
 }
 
 
@@ -488,12 +507,6 @@ html,body {
     margin-top: -47px;
   }
 
-
-  .skills {
-      width: 77%;
-      height: auto;
-  }
-
   .myProfile {
     width: 80%;
   }
@@ -518,6 +531,14 @@ html,body {
 
   .arrow {
     width: 30px;
+  }
+
+  .skills {
+    width: 60px;
+  }
+
+  .adobe img {
+    margin-bottom: 60px;
   }
   
   
