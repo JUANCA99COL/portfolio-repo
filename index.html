@@ -32,23 +32,28 @@
 
       <div class="nav navbar clearfix">
           <div class="for-icons">
-            <a href="index.html">
+            <a href="#home">
               <img  class="logo" src="img/logo.png" alt="">
             </a>
-            <span class="menu mr-4 mt-1 float-right" onclick="openNav()">&#9776;</span>
+
+            <div id="burger" class="menu-btn mt-2">
+              <div class="menu-btn__burger"></div>
+            </div>
           </div>
       </div>
 
-      <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-          <a href="#about-me">ABOUT ME</a>
-          <a href="#web-design">WEB DESIGN</a>
-        </div>
+
+      <div class="sec-nav">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#web-design">PROJECTS</a></li>
+          <li><a href="#about-me">ABOUT</a></li>
+          <li><a href="#bg-form">CONTACT</a></li>
+        </ul>
       </div>
 
 
-      <section id="contact">
+      <section id="home">
         <div class="hero-image">
         <div class="bg-light p-5 hero-text">
           <h1 class="wlc">WELCOME!!</h1>
@@ -59,101 +64,32 @@
       </div>
       </section>
 
-      <section class="py-5 bg-dark text-white" id="web-design"">
+      <section class="py-5 bg-dark text-white" id="web-design">
 
           <h1 class="py-5 text-center p-1 abt-me">PROJECTS</h1>
 
           <div class="row clearfix">
 
             <!-- summative  -->
-
             <div class="col-lg-6 col-sm-12">
               <a href="https://juanca99col.github.io/summative/" target="_blank">
-              <img class="mockUps" src="img/smartmockups_kunp0fk0.jpg" alt="">
+              <img class="mockUps" src="img/mockup-sum.png" alt="">
               </a>
             </div>
 
-            <div class="mockContainer col-lg-6 col-sm-12">
+            <div class="mockFinalContainer col-lg-6 col-sm-12">
               <h2 class="subHeaders text-center">Environmental<br>Web </h2>
               <p class="p-4 m-4 text-center">
                 This website was designed for the department of conservation of New Zealand, my intention was to showcase their goals and
-                future vision on nature and their recreational parks. Their goal is for New Zealand to be the greatest living space on Earth
-                This means ensuring that New Zealanders gain a wide range of benefits from healthy functioning ecosystems and recreation opportunities.
+                future vision on nature and their recreational parks. Ensuring that New Zealanders gain a wide range of benefits from healthy functioning ecosystems and recreation opportunities.
               </p>
                 <a href="https://juanca99col.github.io/summative/" target="_blank">
                   <button class="myButtons" type="button" name="button">SHOW ME</button>
                 </a>
-                <a href="https://github.com/JUANCA99COL/summative"><h5 class="p-4 text-center">github link</h5></a>
+                <a class="text-primary" href="https://github.com/JUANCA99COL/summative"><h5 class="p-4 text-center">github link</h5></a>
             </div>
-
-            <!-- gym hidden -->
-
-            <!-- <div class="col-lg-6 col-sm-12">
-              <a href="https://juanca99col.github.io/gym-nz/" target="_blank">
-              <img class="mockUps3" src="img/smartmockups_kp4yguq7.png" alt="">
-              </a>
-            </div>
-
-            <div class="mockContainer col-lg-6 col-sm-12">
-              <h2 class="subHeaders text-center">Club K - Gym Web</h2>
-              <p class="p-4 m-4 text-center">
-                This website was designed for Club K, Club K is a gym in Wellington that allows their customers to book squash classes and
-                workout in their facilities. the overall look of the official website needed a more modern and fresh look for their viewers, therefore I changed the layout making it look
-                cleaner and simple to use.
-
-              </p>
-              <a href="https://juanca99col.github.io/gym-nz/" target="_blank">
-                <button class="myButtons" type="button" name="button">SHOW ME</button>
-              </a>
-              <a href="https://github.com/JUANCA99COL/gym.github.io"><h5 class="p-4 text-center">github link</h5></a>
-            </div> -->
-
-            <!-- watches website -->
-
-            <!-- <div class="col-lg-6 col-sm-12">
-              <a href="https://juanca99col.github.io/watches-website/" target="_blank">
-              <img class="mockUps" src="img/smartmockups_kung5hq8.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="mockFinalContainer col-lg-6 col-sm-12">
-              <h2 class="subHeaders text-center">Watches - Shopping Site</h2>
-              <p class="p-4 m-4 text-center">
-                This site works as an E-commerce website mainly focused on watches, 
-                the user will select items in the store and then purchase the chosen items,
-                this site allows the user to modify the quantity of each item, remove items 
-                and calculate the total in the cart section. 
-
-              </p>
-              <a href="https://juanca99col.github.io/watches-website/" target="_blank">
-              <button class="myButtons" type="button" name="button">SHOW ME</button>
-              </a>
-              <a href="https://github.com/JUANCA99COL/watches-website"><h5 class="p-4 text-center">github link</h5></a>
-            </div> -->
-
-            <!-- bookings  -->
-
-            <!-- <div class="col-lg-6 col-sm-12">
-              <a href="https://juanca99col.github.io/bookings-website/" target="_blank">
-              <img class="mockUps" src="img/smartmockups_kung1tm7.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="mockFinalContainer col-lg-6 col-sm-12">
-              <h2 class="subHeaders text-center">Tourism Nz - Bookings</h2>
-              <p class="p-4 m-4 text-center">
-                This website allows you to book a room in different parts of new zealand, 
-                it filters by city, meals and number of people going. This app was mainly designed for tourists and locals
-                that want to travel around nz.
-              </p>
-              <a href="https://juanca99col.github.io/bookings-website/" target="_blank">
-              <button class="myButtons" type="button" name="button">SHOW ME</button>
-              </a>
-              <a href="https://github.com/JUANCA99COL/bookings-website"><h5 class="p-4 text-center">github link</h5></a>
-            </div> -->
 
             <!-- prelude portfolio  -->
-
             <div class="col-lg-6 col-sm-12">
               <a href="https://juanca99col.github.io/prelude-portfolio" target="_blank">
               <img class="mockUps" src="img/smartmockups_kqn3r2cl.jpg" alt="">
@@ -163,18 +99,17 @@
             <div class="mockFinalContainer col-lg-6 col-sm-12">
               <h2 class="subHeaders text-center">Prelude Portfolio</h2>
               <p class="p-4 m-4 text-center">
-                This webste was designed by a group of individuls included me for Yoobee Colleges, its purpose is to showcase all the work that has been done by the students,
+                Prelude was designed by a group of motivated individuls included me for Yoobee Colleges, its purpose is to showcase all the work that has been done by the students,
                 making it easy for agencies or clients to contact them
                 and start bussines in the future.
               </p>
               <a href="https://juanca99col.github.io/prelude-portfolio" target="_blank">
-              <button class="myButtons" type="button" name="button">SHOW ME</button>
+                <button class="myButtons" type="button" name="button">SHOW ME</button>
               </a>
-              <a href="https://github.com/JUANCA99COL/prelude-portfolio"><h5 class="p-4 text-center">github link</h5></a>
+              <a class="text-primary" href="https://github.com/JUANCA99COL/prelude-portfolio"><h5 class="p-4 text-center">github link</h5></a>
             </div>
 
             <!-- advance sleek  -->
-
             <div class="col-lg-6 col-sm-12">
               <a href="https://juanca99col.github.io/advance-sleek/" target="_blank">
               <img class="mockUps" src="img/muck-advance.jpg" alt="">
@@ -184,13 +119,13 @@
             <div class="mockFinalContainer col-lg-6 col-sm-12">
               <h2 class="subHeaders text-center">Advance Sleek</h2>
               <p class="p-4 m-4 text-center">
-                The purpose of this webiste was to showcase the users everything you have to know about Digital marketing,
+                The purpose of this website was to showcase the users everything you have to know about Digital marketing,
                 including Social Media Managment, Content Creation and Digital Advertising.
               </p>
               <a href="https://juanca99col.github.io/advance-sleek/" target="_blank">
               <button class="myButtons" type="button" name="button">SHOW ME</button>
               </a>
-              <a href="https://github.com/JUANCA99COL/advance-sleek"><h5 class="p-4 text-center">github link</h5></a>
+              <a class="text-primary" href="https://github.com/JUANCA99COL/advance-sleek"><h5 class="p-4 text-center">github link</h5></a>
             </div>
 
             
@@ -315,7 +250,7 @@
       <a href="https://www.facebook.com/juan.caro.58118774" target="_blank"><i class="face2 fab fa-facebook-square"></i></a>
       <a href="https://www.instagram.com/juankcaro/" target="_blank"><i class="insta2 fab fa-instagram mb-5"></i></a>
       <a href="https://github.com/JUANCA99COL"><img class="github mb-4" src="img/github-brands.svg" alt="" target="_blank"></a>
-      <a href="#contact"><img class="arrow" src="img/chevron-down-solid.svg" alt=""></a>
+      <a href="#home"><img class="arrow" src="img/chevron-down-solid.svg" alt=""></a>
     </div>
   </div>
 
