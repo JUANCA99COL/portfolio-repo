@@ -616,6 +616,7 @@ html,body {
   }
 
   .f-title {
+    margin-top: 40px;
     margin-bottom: 7px;
     font-size: 22px;
   }
