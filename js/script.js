@@ -1,32 +1,21 @@
-// jquey functions 
-
 // jquery functions 
+    $(".sec-nav").hide();
+    $( document ).ready(function() {
+        console.log( "ready!" );
 
-  console.log("hello world");
-
-  $(".sec-nav").hide();
-  $( document ).ready(function() {
-      console.log( "ready!" );
-
-  $(".menu-btn").click(function(){
-      // $(".sec-nav").delay( 800 );
-      $(".sec-nav").toggle();
+    $(".menu-btn").click(function(){
+        $(".sec-nav").fadeToggle();
+    });
   });
-
-  });
-
-
 // ==========================================================
 //	Nav scroll Animation
 // ==========================================================
-
   $(document).ready(function(){
     $(window).scroll(function(){
         if($(window).scrollTop() > 100){
             $(".navbar").css({"background-color":"black",
             
           });  
-
         }
         else{
             $(".navbar").css({"background-color":"",
@@ -35,22 +24,9 @@
         }       
       })
     })
-
-
-// ==========================================================
-//	LOADER
-// ==========================================================
-
-
-  $(window).on("load",function(){
-    $(".wrapper-loader").fadeOut("slow");
-  });
-
 // ==========================================================
 //	HAMBURGER MENU
 // ==========================================================
-
-
   const menuBtn = document.querySelector('.menu-btn');
   let menuOpen = false;
   menuBtn.addEventListener('click', () => {
@@ -62,25 +38,3 @@
       menuOpen = false;
     }
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
