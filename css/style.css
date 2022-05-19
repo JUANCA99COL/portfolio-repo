@@ -7,7 +7,7 @@ padding: 0;
 }
 
 
-h1, h2, h3 {
+h1, h2 {
 font-family: 'Montserrat', sans-serif;
 }
 
@@ -27,15 +27,17 @@ background: #290628;
 }
 
 #cus-bg3 {
-background: #240046;
+background: black;
 }
 
 #exposure {
-background-image: url("../img/languages-bg.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
+background: #ECECE4;
 height: auto; 
+}
+
+.profile-img {
+    width: 50%;
+    height: auto;
 }
 
 .myvideo {
@@ -53,7 +55,6 @@ left: 50%;
 transform: translate(-50%, -50%);
 background-color: black;
 opacity: 0.8;
-/* border: 5px solid green; */
 }
 
 .img-cover {
@@ -62,25 +63,32 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 height: 600px;
-filter: brightness(70%);
+position: relative;
+}
+
+.sum-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 .img-cover2 {
-background-image: url("../img/smartmockups_kqn3r2cl.jpg");
+background-image: url("../img/prelude-project.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 height: 600px;
-filter: brightness(70%);
+position: relative;
 }
 
 .img-cover3 {
-background-image: url("../img/muck-advance.jpg");
+background-image: url("../img/muck-advance.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 height: 600px;
-filter: brightness(70%);
+position: relative;
 }
 
 .img-cover4 {
@@ -338,19 +346,6 @@ width: 65%; }
 width: 60%;
 height: auto;
 border-radius: 360px;
-
-}
-
-.myButtons {
-width: 120px;
-height: 58px;
-padding: 5px;
-background: white;
-border: 1px solid black;
-border-radius: 45px;
-color: black;
-margin: auto;
-display: block; 
 }
 
 .extra-m {
@@ -361,16 +356,6 @@ margin-bottom: 50px;
 text-decoration: none;
 color: white;
 }
-
-
-.myButtons:hover {
-text-decoration: none; 
-background-color: orange;
-color: white;
-border: none;
-}
-
-
 
 .subHeaders {
 margin-top: 120px;
@@ -402,7 +387,6 @@ margin-top: 220px;
 font-size: 40px;
 }
 
-
 @media only screen and (max-width: 1100px) {
 .pk-content {
 width: 100%;
@@ -415,6 +399,26 @@ height: 600px;
 }
 }
 
+/* Small devices (portrait tablets and large phones, 415px and up) */
+@media only screen and (min-width: 415px) {
+.sum-content p{
+    width: 530px;
+}
+
+.img-cover {
+    height: 700px;
+}
+
+.img-cover2 {
+    height: 700px;
+}
+
+.img-cover3 {
+    height: 700px;
+}
+}
+
+/* Extra small devices (phones, 414px and down) */
 @media only screen and (max-width: 414px) {
 .pk-content {
 opacity: 1;
@@ -422,7 +426,8 @@ opacity: 1;
 
 .subHeaders {
 margin-left: 0px;
-margin-top: 50px; }
+margin-top: 50px; 
+}
 
 .myvideo {
 visibility: hidden;
@@ -446,7 +451,6 @@ font-size: 18px; }
 
 .abt-me {
 font-size: 35px; } 
-
 
 .frm-w {
 width: 275px;
@@ -500,5 +504,21 @@ margin-top: 300px;
 
 .thanks2 {
 font-size: 20px;
+}
+
+.img-cover {
+    height: 900px;
+}
+
+.img-cover2 {
+    height: 900px;
+}
+
+.img-cover3 {
+    height: 900px;
+}
+
+.sum-content p{
+    width: 380px;
 }
 }
