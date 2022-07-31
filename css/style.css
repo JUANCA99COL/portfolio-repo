@@ -99,6 +99,15 @@ height: 700px;
 filter: brightness(70%);
 }
 
+.img-cover5 {
+background-image: url("../img/brilla-1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 700px;
+filter: brightness(100%);
+}
+
 .skills {
 width: 80px;
 height: auto;
