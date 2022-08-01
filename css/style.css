@@ -34,6 +34,12 @@ background: #ECECE4;
 height: auto; 
 }
 
+.env-images {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
 .profile-img {
 width: 50%;
 height: auto;
@@ -57,19 +63,12 @@ opacity: 0.8;
 }
 
 .img-cover {
-background-image: url("../img/mockup-sum.png");
+background-image: url("../img/travel-env.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 height: 600px;
 position: relative;
-}
-
-.sum-content {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
 }
 
 .img-cover2 {
@@ -81,31 +80,20 @@ height: 600px;
 position: relative;
 }
 
-.img-cover3 {
-background-image: url("../img/muck-advance.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-height: 600px;
-position: relative;
-}
-
 .img-cover4 {
-background-image: url("../img/ux(1).jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-height: 700px;
-filter: brightness(70%);
-}
-
-.img-cover5 {
-background-image: url("../img/brilla-1.png");
+background-image: url("../img/dark-house.png");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
 height: 700px;
 filter: brightness(100%);
+}
+
+.sum-content {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 .skills {
@@ -415,6 +403,10 @@ height: 700px;
 @media only screen and (max-width: 414px) {
 .pk-content {
 opacity: 1;
+}
+
+#exposure {
+  height: 500px;
 }
 
 .subHeaders {
